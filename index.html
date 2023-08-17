@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Code Craft">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://localhost/index.html">
 <meta property="og:site_name" content="Code Craft">
-<meta property="og:locale">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="胡航毅">
 <meta name="twitter:card" content="summary">
   
@@ -64,7 +64,7 @@
         <a class="nav-icon nav-search-btn" title="Suche"><span class="fa fa-search"></span></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://localhost"></form>
       </div>
     </div>
   </div>
@@ -95,12 +95,17 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="C"><a href="#C" class="headerlink" title="C"></a>C</h2><p>(未完成)</p>
+        <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/CodeMaster114514/TreeCompiler</span><br><span class="line"></span><br><span class="line">cd TreeCompiler</span><br><span class="line">make</span><br><span class="line">sudo make install</span><br></pre></td></tr></table></figure>
+
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tcc &lt;你要编译的文件&gt; #现在还没完成，编译后没有结果</span><br></pre></td></tr></table></figure>
+
+<h2 id="源码文件功能"><a href="#源码文件功能" class="headerlink" title="源码文件功能"></a>源码文件功能</h2><h3 id="lexer-c"><a href="#lexer-c" class="headerlink" title="lexer.c"></a>lexer.c</h3><p>读取文件将文件解析成token并存放到mound *tokens中</p>
+<h3 id="parse-c"><a href="#parse-c" class="headerlink" title="parse.c"></a>parse.c</h3><p>读取tokens并转化为node</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/08/15/TreeCompiler/" data-id="cllbwb1so00018oc7021qdjut" data-title="TreeCompiler" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="http://localhost/2023/08/15/TreeCompiler/" data-id="cllbwb1so00018oc7021qdjut" data-title="TreeCompiler" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -156,7 +161,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/08/15/HongMuOS/" data-id="cllbskd1h0000jxc73e7d16t4" data-title="HongMuOS" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="http://localhost/2023/08/15/HongMuOS/" data-id="cllbskd1h0000jxc73e7d16t4" data-title="HongMuOS" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -199,7 +204,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/08/15/self-introduction/" data-id="cllbwa8ph00008oc75w46157y" data-title="自我介绍" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="http://localhost/2023/08/15/self-introduction/" data-id="cllbwa8ph00008oc75w46157y" data-title="自我介绍" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -229,7 +234,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archiv</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">八月 2023</a></li></ul>
     </div>
   </div>
 
